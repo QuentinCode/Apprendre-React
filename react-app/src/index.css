@@ -1,4 +1,81 @@
-body {
-  background: #222;
-  color: #f1f1f1;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+body {
+  background: url(https://cdn.pixabay.com/photo/2022/05/31/07/01/island-7232868_960_720.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #292929;
+  font-family: Poppins, sans-serif;
+}
+#root {
+  margin: 300px auto;
+  padding: 30px;
+  border: 4px solid #292929;
+  border-radius: 40px;
+  background-color: rgb(223, 165, 95);
+  max-width: 1100px;
+}
+h1, form, h2, ul {
+  text-align: center;
+  list-style-type: none;
+}
+h1 {
+  font-size: 3rem;
+  padding: 5px 0 20px 0;
+  text-transform: uppercase;
+  font-family: Pacifico, sans-serif;
+}
+label {
+  font-weight: 700;
+}
+form, input, button {
+  font-size: 2rem;
+  padding: 10px;
+}
+input {
+  background: transparent;
+  border: 2px solid #292929;
+  border-radius: 20px;
+  outline: none;
+  color: #292929;
+  width: 35%;
+  margin: 0 20px;
+}
+button {
+  background-color: transparent;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: Pacifico, sans-serif;
+  transition: all 0.2s;
+}
+button:hover {
+  background-color: #828282;
+}
+h2 {
+  font-family: Poppins, sans-serif;
+  padding: 20px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+li {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+}
+li button {
+  width: 200px;
+  margin: 10px auto;
+}
+.txt {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+

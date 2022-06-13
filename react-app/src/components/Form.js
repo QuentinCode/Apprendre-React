@@ -37,7 +37,7 @@ const linkedInput = e => {
     <div className="form-container">
         <form onSubmit={e => addTodo(e)}>
             <label htmlFor="todo">
-                Chose à faire
+                Chose à faire :
             </label>
             <input
             value={stateInput}
